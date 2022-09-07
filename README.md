@@ -4,7 +4,7 @@ using namespace std;
 
 int T,N;
 
-class MaheshShopingCart
+class priyansuShopingCart
 {
     int quantity;
     char name[100];
@@ -21,7 +21,7 @@ class MaheshShopingCart
 
 
 
-void MaheshShopingCart::get_data()
+void priyansuShopingCart::get_data()
 {
     cout<<"Enter the name of the item "<<T+1<<" = ";
     cin>>name;
@@ -36,7 +36,7 @@ void MaheshShopingCart::get_data()
 
 }
 
-void MaheshShopingCart::put_data()
+void priyansuShopingCart::put_data()
 {
     cout<<"\n"<<name<<"\t\t   "<<quantity<<"\t\t   "<<price<<"\t\t\t"<<"SR";
 }
@@ -48,11 +48,11 @@ void MaheshShopingCart::calculate()
     }
 
 }
-void MaheshShopingCart::Total1()
+void priyansuShopingCart::Total1()
 {
     cout<<"\nTotal Amount= "<<Total;
 }
-void MaheshShopingCart::GST(){
+void priyansuShopingCart::GST(){
     char name;
 if(name=='Leather wallet'){
     int GstAmount=(price*GstAmt)*100;
